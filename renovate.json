@@ -16,13 +16,16 @@
       "groupName": "packages Armonik",
     },
     {
+      "description": "Group dependencies from docker files "
+      "matchPaths": [ "**Docker**",
+                      "**docker**"
+                    ],
+      "groupName": "packages Dockerfile",
+    },
+    {
       "matchPackagePrefixes": [ "Htc.Mock" ],
       "excludePackagePrefixes": [ "ArmoniK.Api" ],
       "groupName": "packages HtcMock",
-      "matchUpdateTypes": [	
-        "minor",	
-        "major"	
-      ]
     },
     {
       "matchPackagePatterns": ["*"],
