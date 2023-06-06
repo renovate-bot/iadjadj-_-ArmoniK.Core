@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "forkProcessing": "enabled",
   "extends": [
     "config:base",
     ":semanticCommits"
@@ -13,7 +12,7 @@
     },
     {
       "matchPackagePrefixes": [ "ArmoniK" ],
-      "excludePackagePrefixes": [ "ArmoniK.Api" ],
+      "excludePackagePrefes": [ "ArmoniK.Api" ],
       "groupName": "packages Armonik"
     },
     {
