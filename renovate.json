@@ -27,7 +27,6 @@
     {
       "matchPackagePatterns": ["*"],
       "excludePackagePrefixes": [ "ArmoniK", "Htc.Mock" ],
-      "groupName": "{{manager}}",
       "matchUpdateTypes": [
         "minor",
         "major"
