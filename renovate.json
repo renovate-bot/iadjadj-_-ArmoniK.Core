@@ -17,7 +17,7 @@
       "groupName": "packages Armonik"
     },
     {
-      "description": "Group dependencies from docker files "
+      "description": "Group dependencies from docker files ",
       "matchPaths": [ "**Docker**",
                       "**docker**"
                     ],
@@ -29,7 +29,7 @@
       "groupName": "packages HtcMock"
     }, 
     {
-      "description": "Group dependencies from nuget "
+      "description": "Group dependencies from nuget ",
       "matchPaths": [ "**.csproj"
                     ],
       "groupName": "packages nuget"
