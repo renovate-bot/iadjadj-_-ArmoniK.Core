@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "group:allNonMajor",
     ":semanticCommits"
  ],
 
@@ -10,28 +9,16 @@
     {
       "matchPackagePrefixes": [ "ArmoniK.Api"  ],
       "groupName": "packages ArmoniK.Api", 
-      "matchUpdateTypes": [
-        "minor",
-        "major"
-      ]
     },
     {
       "matchPackagePrefixes": [ "ArmoniK" ],
       "excludePackagePrefixes": [ "ArmoniK.Api" ],
       "groupName": "packages Armonik",
-      "matchUpdateTypes": [
-        "minor",
-        "major"
-      ]
     },
     {
       "matchPackagePrefixes": [ "Htc.Mock" ],
       "excludePackagePrefixes": [ "ArmoniK.Api" ],
       "groupName": "packages HtcMock",
-      "matchUpdateTypes": [
-        "minor",
-        "major"
-      ]
     },
     {
       "matchPackagePatterns": ["*"],
