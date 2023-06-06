@@ -4,7 +4,7 @@
     "config:base",
     ":semanticCommits"
  ],
- "frokProssing": "disabled"
+ "forkProcessing": "disabled"
   "packageRules": [
     {
       "matchPackagePrefixes": [ "ArmoniK.Api"  ],
