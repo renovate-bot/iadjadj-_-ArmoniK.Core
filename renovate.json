@@ -8,7 +8,7 @@
   "packageRules": [
     {
       "matchPackagePrefixes": [ "ArmoniK.Api"  ],
-      "groupName": "packages ArmoniK.Api", 
+      "groupName": "packages ArmoniK.Api" 
     },
     {
       "matchPackagePrefixes": [ "ArmoniK" ],
@@ -20,7 +20,7 @@
       "matchPaths": [ "**Docker**",
                       "**docker**"
                     ],
-      "groupName": "packages Dockerfile",
+      "groupName": "packages Dockerfile"
     },
     {
       "matchPackagePrefixes": [ "Htc.Mock" ],
