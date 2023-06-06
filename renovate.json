@@ -19,6 +19,10 @@
       "matchPackagePrefixes": [ "Htc.Mock" ],
       "excludePackagePrefixes": [ "ArmoniK.Api" ],
       "groupName": "packages HtcMock",
+      "matchUpdateTypes": [	
+        "minor",	
+        "major"	
+      ]
     },
     {
       "matchPackagePatterns": ["*"],
